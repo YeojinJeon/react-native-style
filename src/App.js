@@ -12,7 +12,8 @@ const App = () => {
         <Container>
             <Button title="Sesac" />
             <Button title="React Native" />
-            <Input />
+            <Input textColor="#3498db" />
+            <Input textColor="#9b59b6" />
         </Container>
     );
 };
