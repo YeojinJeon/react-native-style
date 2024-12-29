@@ -4,7 +4,7 @@ import { viewStyles, textStyles } from "./styles";
 const App = () => {
     return (
         <View style={viewStyles.container}>
-            <Text style={[textStyles.text]}>Inline Style - Text</Text>
+            <Text style={[{ backgroundColor: 'yellow', color: 'pink' }, textStyles.text, { color: 'green' }]}>Inline Style - Text</Text>
             <Text style={textStyles.error}>Inline Style - Error</Text>
         </View>
     );
