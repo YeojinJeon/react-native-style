@@ -8,7 +8,7 @@ import Button from "./components/Button";
 
 const App = () => {
     return (
-        <Container>
+        <Container style={classStyles.container}>
             <Button title="Sesac" />
             <Button title="React Native" />
         </Container>
