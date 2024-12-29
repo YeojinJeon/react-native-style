@@ -5,12 +5,14 @@ import { Header, Contents, Footer } from "./components/Layout";
 import ShadowBox from "./components/ShadowBox";
 import styled from "styled-components/native";
 import Button from "./components/Button";
+import Input from "./components/Input";
 
 const App = () => {
     return (
         <Container>
             <Button title="Sesac" />
             <Button title="React Native" />
+            <Input />
         </Container>
     );
 };
